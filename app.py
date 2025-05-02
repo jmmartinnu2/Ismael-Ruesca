@@ -55,8 +55,8 @@ player_info = {
     "Posición": "Defensa central / Mediocentro Defensivo (Pivote)"
 }
 # URL directa de la foto
-
-photo_url = "https://imgur.com/We3q68I"
+# URL directa de la foto (versión .jpg)
+photo_url = "https://i.imgur.com/We3q68I.jpg"
 
 
 videos = [
@@ -196,7 +196,6 @@ if choice.startswith("1."):
         <div class="fifa-card__left">
             <div class="overall">14</div>
             <img src="{photo_url}" alt="Foto de jugador"/>
-
             <div class="position">{position}</div>
         </div>
         <div class="fifa-card__right">
