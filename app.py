@@ -55,7 +55,7 @@ player_info = {
     "Posición": "Defensa central / Mediocentro Defensivo (Pivote)"
 }
 # URL directa de la foto
-photo_url = "ismael-2.jpg"
+photo_url = "https://imgur.com/We3q68I"
 
 videos = [
     "https://youtu.be/4298-i9oUz0",
