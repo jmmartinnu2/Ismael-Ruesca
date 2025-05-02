@@ -56,7 +56,9 @@ player_info = {
 }
 # URL directa de la foto
 
-photo_url = "https://i.imgur.com/We3q68I.jpg"
+# URL “raw” de GitHub para que Streamlit la pueda descargar sin problemas
+photo_url = "https://raw.githubusercontent.com/jmmartinnu2/Ismael-Ruesca/main/ismael.jpg"
+
 
 
 videos = [
@@ -195,8 +197,7 @@ if choice.startswith("1."):
     <div class="fifa-card">
         <div class="fifa-card__left">
             <div class="overall">14</div>
-            st.image(photo_url, caption=player_info["Nombre"], width=180)
-
+            st.image(photo_url, width=180, caption=player_info["Nombre"])
 
             <div class="position">{position}</div>
         </div>
