@@ -54,8 +54,10 @@ player_info = {
     "Valoración": "⭐⭐⭐⭐ (4/5)",
     "Posición": "Defensa central / Mediocentro Defensivo (Pivote)"
 }
-# URL “raw” de GitHub para que Streamlit la pueda descargar sin problemas
-photo_url = "https://raw.githubusercontent.com/jmmartinnu2/Ismael-Ruesca/main/ismael.jpg"
+# URL directa de la foto
+
+photo_url = "https://imgur.com/We3q68I"
+
 
 videos = [
     "https://youtu.be/4298-i9oUz0",
@@ -96,10 +98,7 @@ if choice.startswith("1."):
     # Sección 1: Datos Generales con tarjeta estilo FIFA
     # ----------------------------------------
 
-    # Pintamos la imagen con Streamlit para asegurar carga
-    st.image(photo_url, width=180, caption=player_info["Nombre"])
-
-    # Inyectamos estilos CSS inline
+    # Añadimos estilos CSS inline
     st.markdown(
         """
         <style>
@@ -120,6 +119,13 @@ if choice.startswith("1."):
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        .fifa-card__left img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 4px solid #ffffff;
         }
         .fifa-card__left .overall {
             position: absolute;
@@ -183,12 +189,14 @@ if choice.startswith("1."):
     logo_url = "https://cdn.resfu.com/img_data/escudos/medium/25597.jpg?size=120x&lossy=1"
     overall = 4  # Valoración global 4/5
     position = "DF / MCD"
-
-    # Construcción de la card (sin <img> para la foto, ya la mostramos con st.image)
+    
+    # Construcción de la card
     card_html = f"""
     <div class="fifa-card">
         <div class="fifa-card__left">
-            <div class="overall">{overall * 10}</div>
+            <div class="overall">14</div>
+            <img src="{photo_url}" alt="Foto de jugador"/>
+
             <div class="position">{position}</div>
         </div>
         <div class="fifa-card__right">
@@ -206,6 +214,10 @@ if choice.startswith("1."):
     </div>
     """
     st.markdown(card_html, unsafe_allow_html=True)
+
+
+
+
 
 elif choice.startswith("2."):
     st.title("2. 📊 Resumen de Partidos")
