@@ -350,15 +350,35 @@ Ismael Ruesca Godino se perfila como un futbolista con un instinto defensivo muy
 
 ---
 
-**🛠️ Áreas de Mejora**  
+**🛠️ Áreas de Mejora & Plan de Acción**  
 
-1. **Pases Largos y Cambio de Ritmo + Velocidad continuada:**  
-   Mejorar la potencia y precisión en lanzamientos en largo (más allá de 30 metros) para buscar extremos o romper líneas defensivas en campo contrario. Y mejora en velocidad continuadad para hacer frente a cuando juegue en posicion de Defensa central, poder suplir esos problemas detectados.  
-2. **Comunicación y Liderazgo:**  
-   Fomentar la asunción de mando en defensa, elevando el volumen de voz para organizar la línea de cuatro y coordinar coberturas.  
+1. **Pases Largos y Cambio de Ritmo + Velocidad Continuada**  
+   - **Sesiones de golpeo de larga distancia**  
+     - Disparos a portería y pases a objetivos (dianas) situados a 30–40 m.  
+     - Variar apoyos (fijo, en movimiento, con pared) para replicar situaciones de partido.  
+   - **Circuitos de técnica y potencia de empeine**  
+     - Ejercicios de “drive” con ambas piernas: 15–20 repeticiones acumulando velocidad de carrera.  
+     - Trabajo con balón pesado o gomas elásticas para ganar fuerza en el tren inferior.  
+   - **Entrenamiento de cambio de ritmo**  
+     - Series de 10–20–30 m en arena o césped alto, alternando sprints puros y aceleraciones progresivas.  
+     - “Fartlek” en pista: cambios de ritmo cada 50 m manteniendo un pulso de 160–170 ppm.  
+   - **Resistencia específica**  
+     - Circuitos de velocidad continuada (4×150 m al 85–90 % de la VMA) con 2′ de recuperación.  
+     - Trabajo pliométrico (saltos en escalera) para mejorar la reacción y la velocidad sostenida.  
 
+2. **Comunicación y Liderazgo**  
+   - **Roles de “capitán” en rondos y partidillos**  
+     - Cada sesión un jugador asume el rol de líder: da instrucciones de coberturas, gestiona rotaciones y anima.  
+     - Feedback posterior con vídeo para reforzar aciertos y corregir despistes.  
+   - **Ejercicios de “micro-cobertura” en ataque**  
+     - Entrenamiento de 3 vs 3 + 1 defensor “mudo”: solo puede comunicarse verbalmente, no físicamente.  
+     - Obliga a coordinar presiones y coberturas por voz antes de tocar balón.  
+   - **Dinámicas de comunicación fuera del campo**  
+     - Charlas tácticas breves (5′) previas al ejercicio, asignando “líderes de bloque” que transmiten esquema.  
+ 
 
 ---
+
 
 
     """)
